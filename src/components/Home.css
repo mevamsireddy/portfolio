@@ -1,0 +1,82 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+  }
+  
+  .intro h2 {
+    font-size: 5rem;
+    margin: 20px 0;
+  }
+  
+  .intro h3 {
+    font-size: 3rem;
+    margin: 10px 0;
+  }
+  
+  .intro p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    max-width: 800px;
+  }
+  
+  .work {
+    margin-top: 40px;
+    text-align: left;
+    width: 80%;
+  }
+  
+  .work h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .work ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+    animation: slideIn 1s ease-in;
+  }
+  
+  .project h4 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  .project p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  
+  footer {
+    margin-top: 40px;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  

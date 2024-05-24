@@ -1,0 +1,99 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    animation: fadeIn 1s ease-in;
+    text-align: center;
+  }
+  
+  .contact-info h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    right: 20px;
+    top: 120px;
+  }
+  
+  .contact-info .icons a {
+    color: #000;
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  .about-me, .skills, .experience, .education {
+    margin-top: 40px;
+    width: 80%;
+    text-align: left;
+  }
+  
+  .about-me h3, .skills h3, .experience h3, .education h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    animation: slideInLeft 1s ease-in;
+  }
+  
+  .about-me p, .skills ul, .experience-item, .education-item {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
+    animation: slideInRight 1s ease-in;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    margin: 10px 0;
+  }
+  
+  .experience-item, .education-item {
+    margin-bottom: 40px;
+  }
+  
+  .experience-item h4, .education-item h4 {
+    font-size: 1.75rem;
+    margin: 10px 0;
+  }
+  
+  footer {
+    margin-top: 40px;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
